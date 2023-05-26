@@ -1,0 +1,32 @@
+title: Nathan's Notes
+author: Nathan Gurrin-Smith
+email: none
+description: >- # this means to ignore newlines until "baseurl:"
+  Nathan's notes contains the research that he's done on various topics that are important to him. They are updated when he finds new information or viewpoints.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "www.notes.nathangs.ca" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: nathangs6
+
+# Build settings
+#plugins:
+#  - jekyll-feed
+
+collections:
+  groups:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "groups"
+    values:
+      layout: "group"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "note"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="/assets/css/styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>{{ site.title }}</h1>
+            {% include navigation.html %}
+            <hr/>
+        </header>
+        <main>
+            {{ content }}
+        </main>
+        <footer>
+            <hr/>
+            <p>{{ site.author }} | {{ site.email }} | {{ site.github_username }}</p>
+            <p>{{ site.description }}</p>
+        </footer>
+    </body>
