@@ -1,12 +1,60 @@
 html, body {
     color: #ebdbb2;
     background-color: #282828;
+    font-family: Droid Sans;
 }
 
 a {
     color: #83a598;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 h1 {
+    margin-top: 0.5em;
     margin-bottom: 0.1em;
+}
+
+h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.1em;
+}
+
+h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0.1em;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0.3em;
+    padding-left: 1.5em;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0.5em;
+}
+
+footer hr {
+    margin-bottom: 0;
+    margin-top: 2em;
+}
+
+/* Group Page Styling */
+.group-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.group-heading {
+    margin-bottom: 0.5em;
 }

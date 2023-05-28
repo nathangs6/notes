@@ -4,11 +4,11 @@ permalink: /groups/
 ---
 <h1>Groups</h1>
 
-<ul>
+<ul class="group-list">
     {% for group in site.groups %}
     <li>
-        <h2><a href="{{ group.url }}">{{ group.name }}</a></h2>
-        <p>{{ group.content | markdownify }}</p>
+        <h2 class="group-heading"><a href="{{ group.url }}">{{ group.name }}</a></h2>
+        <p>{{ group.excerpt | markdownify }}</p>
     </li>
     {% endfor %}
 </ul>

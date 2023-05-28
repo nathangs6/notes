@@ -6,10 +6,13 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "www.notes.nathangs.ca" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: nathangs6
+code_repo: "https://github.com/nathangs6/notes"
 
 # Build settings
 #plugins:
 #  - jekyll-feed
+
+permalink: /:title
 
 collections:
   groups:
@@ -26,6 +29,7 @@ defaults:
       type: "posts"
     values:
       layout: "note"
+      permalink: "notes/:title"
   - scope:
       path: ""
     values:

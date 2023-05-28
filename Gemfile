@@ -34,3 +34,5 @@ gem "github-pages", "~> 228", group: :jekyll_plugins
 
 #gem "webrick", "~> 1.8"
 #gem "faraday-retry", "~> 2.0"
+
+gem "webrick", "~> 1.8"

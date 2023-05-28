@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
+        <link rel="icon" type="image/x-icon" href="/assets/images/favicon.io"/>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans"/>
         <link rel="stylesheet" href="/assets/css/styles.css">
     </head>
     <body>
@@ -16,7 +18,11 @@
         </main>
         <footer>
             <hr/>
-            <p>{{ site.author }} | {{ site.email }} | {{ site.github_username }}</p>
-            <p>{{ site.description }}</p>
+            <ul>
+                <li>Author: <a href="https://www.nathangs.ca/?theme=gruvbox">Nathan Gurrin-Smith</a></li>
+                <li>Email: {{ site.email }}</li>
+                <li>Github: <a href="{{ site.code_repo }}">code base here</a></li>
+            </ul>
         </footer>
     </body>
+</html>
