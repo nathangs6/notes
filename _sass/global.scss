@@ -4,6 +4,11 @@ html, body {
     font-family: Droid Sans;
 }
 
+body {
+    width: 80%;
+    margin: auto;
+}
+
 a {
     color: #83a598;
     text-decoration: none;
@@ -57,4 +62,11 @@ footer hr {
 
 .group-heading {
     margin-bottom: 0.5em;
+}
+
+/* Mobile Styling */
+@media only screen and (max-width: 1000px) {
+    body {
+        width: 95%;
+    }
 }
