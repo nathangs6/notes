@@ -12,7 +12,7 @@ code_repo: "https://github.com/nathangs6/notes"
 #plugins:
 #  - jekyll-feed
 
-permalink: /:title
+permalink: /:title/
 
 collections:
   groups:
